@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+.your-3d-class {
+    transform-style: preserve-3d;
+    transform: perspective(1000px) translateZ(20px);
+  }
+@tailwind utilities;
